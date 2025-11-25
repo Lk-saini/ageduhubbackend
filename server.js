@@ -9,8 +9,9 @@ const app = express();
 // ===== Middleware =====
 app.use(cors({
   origin: [
-    'http://localhost:3000',        
-    'https://ageduhub.in' ,
+    'http://localhost:3000',
+     'https://ageduhub.in'
+    'https://ageduhub.in/' ,
     'https://www.ageduhub.in',
      'https://www.ageduhub.in/'
   ],
