@@ -75,3 +75,4 @@ router.get("/visitor-stats", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch visitor stats" });
   }
 });
+module.exports = router;
